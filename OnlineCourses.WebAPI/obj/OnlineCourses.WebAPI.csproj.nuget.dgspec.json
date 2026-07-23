@@ -1,0 +1,324 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.WebAPI\\OnlineCourses.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj",
+        "projectName": "OnlineCourses.Core",
+        "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Data\\OnlineCourses.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Data\\OnlineCourses.Data.csproj",
+        "projectName": "OnlineCourses.Data",
+        "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Data\\OnlineCourses.Data.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj": {
+                "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Servies\\OnlineCourse.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Servies\\OnlineCourse.Service.csproj",
+        "projectName": "OnlineCourse.Service",
+        "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Servies\\OnlineCourse.Service.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Servies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj": {
+                "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.WebAPI\\OnlineCourses.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.WebAPI\\OnlineCourses.WebAPI.csproj",
+        "projectName": "OnlineCourses.WebAPI",
+        "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.WebAPI\\OnlineCourses.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj": {
+                "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourese.Core\\OnlineCourses.Core.csproj"
+              },
+              "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Data\\OnlineCourses.Data.csproj": {
+                "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Data\\OnlineCourses.Data.csproj"
+              },
+              "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Servies\\OnlineCourse.Service.csproj": {
+                "projectPath": "C:\\מדמח\\שנה ב\\c#\\.Net\\ex15\\מטלה 15\\מטלה 15\\OnlineCourses\\OnlineCourses.Servies\\OnlineCourse.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

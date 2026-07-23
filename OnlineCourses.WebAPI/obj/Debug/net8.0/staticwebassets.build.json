@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wcNuYKevM6PjUx5T8Uf7ivluBCzFkeCfYO5glVw+p3c=",
+  "Source": "OnlineCourses.WebAPI",
+  "BasePath": "_content/OnlineCourses.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
